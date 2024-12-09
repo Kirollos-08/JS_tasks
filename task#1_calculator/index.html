@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <span>Basic Calculator</span>
+    <div id="container">
+        <input type="text" name="" id="txt"readonly>
+        
+            <button onclick="AC()">AC</button>
+            <button onclick="DE()"><i class="fa-solid fa-delete-left"></i></button>
+            <button value="."onclick="get(this.value)">.</button> 
+            <button value="/"onclick="get(this.value)">/</button>
+
+            <button value="7"onclick="get(this.value)">7</button>
+            <button value="8"onclick="get(this.value)">8</button>
+            <button value="9"onclick="get(this.value)">9</button> 
+            <button value="*"onclick="get(this.value)">x</button>
+
+            <button value="4"onclick="get(this.value)">4</button>
+            <button value="5"onclick="get(this.value)">5</button>
+            <button value="6"onclick="get(this.value)">6</button>
+            <button value="-"onclick="get(this.value)">-</button>
+
+            <button value="1"onclick="get(this.value)">1</button>
+            <button value="2"onclick="get(this.value)">2</button>
+            <button value="3"onclick="get(this.value)">3</button>
+            <button value="+"onclick="get(this.value)">+</button>
+
+            <button value="0"onclick="get(this.value)">00</button>
+            <button value="0"onclick="get(this.value)">0</button>
+            <button id="equal">=</button>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
